@@ -3,3 +3,7 @@ terraform/credentials.json
 terraform/terraform.tfvars
 terraform/terraform.tfstate*
 tls/*
+# Script initalizing the Vault secrets specific to our environments
+secrets.sh
+# Our Org/Billing ID
+settings.env
