@@ -260,6 +260,7 @@ resource "google_container_cluster" "vault" {
   }
 
   node_config {
+    preemptible  = true
     machine_type    = var.kubernetes_instance_type
     service_account = google_service_account.vault-server.email
 
